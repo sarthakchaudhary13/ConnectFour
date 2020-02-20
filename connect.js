@@ -5,8 +5,12 @@ var player2 = "Player Two";
 var player2Color = "red";
 var color = $("button").css("background-color");
 
-player1 = prompt("Enter name of Player One, you will be Blue");
-player2 = prompt("Enter name of Player Two, you will be Red");
+$(".start").click(function() {
+    player1 = prompt("Enter name of Player One, you will be Blue");
+    player2 = prompt("Enter name of Player Two, you will be Red");
+
+
+
 
 var currentPlayer = 1;
 var playerColor = player1Color;
@@ -121,4 +125,5 @@ if (currentPlayer === 1) {
   playerColor = player2Color;
 }
 
+})
 })
