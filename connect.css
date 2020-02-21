@@ -1,4 +1,4 @@
-button{
+.buttons{
             width: 100px;
             height: 100px;
             padding: 7px 10px;
@@ -11,12 +11,17 @@ h2,h3,h4{
   text-align: center;
 }
 .start{
-    font-size: 20px;
-    border-radius: 10%;
-    width: 100px;
-    height: 70px;
-    border: 3px 3px 3px 3px;
-    border-style: solid;
-    margin-left: 45%;
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: inherit;
+}
+.edi{
+    margin-top: 2%;
+    margin-bottom: 2%;
 
 }

@@ -3,7 +3,7 @@ var player1Color="blue";
 var player1
 var player2 = "Player Two";
 var player2Color = "red";
-var color = $("button").css("background-color");
+var color = $(".buttons").css("background-color");
 
 $(".start").click(function() {
     player1 = prompt("Enter name of Player One, you will be Blue");
@@ -19,7 +19,7 @@ var playerName = player1;
 
 function returnColor(row,col)
 {
-    return $("table tr").eq(row).find("td").eq(col).find("button").css("background-color");
+    return $("table tr").eq(row).find("td").eq(col).find(".buttons").css("background-color");
 }
 
 function checkBottom(col)
@@ -43,7 +43,7 @@ function colorCheck(one,two,three,four)
 
 function changeColor(col,row,color)
 {
-    return $("table tr").eq(row).find("td").eq(col).find("button").css("background-color",color);
+    return $("table tr").eq(row).find("td").eq(col).find(".buttons").css("background-color",color);
 }
 function horizontalWinCheck()
 {
@@ -101,7 +101,7 @@ function horizontalWinCheck()
         }
 $('h3').text(player1+": it is your turn, please pick a column to drop your blue chip.");
 
-$("button").on("click", function()
+$(".buttons").on("click", function()
 {
   var col = $(this).closest("td").index();
   var availRow = checkBottom(col);
