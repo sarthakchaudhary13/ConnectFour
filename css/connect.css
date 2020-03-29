@@ -10,7 +10,7 @@
 }
 @font-face {
 font-family: "CustomFont";
-src : url("collegiate/CollegiateBlackFLF.ttf");
+src : url("../collegiate/CollegiateBlackFLF.ttf");
 font-weight: bold;
 }
 h2,h3,h4{
@@ -35,5 +35,5 @@ a:hover, a:visited, a:link, a:active
 
 }
 body{
-    background-image: url("img/background.jpg");
+    background-image: url("../img/background.jpg");
 }

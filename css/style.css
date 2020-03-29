@@ -16,7 +16,7 @@ body{
     }
 .myinfo{
 
-    background-image: url("./img/background.jpg");
+    background-image: url("../img/background.jpg");
 
 
 
@@ -28,12 +28,12 @@ body{
 
 @font-face {
 font-family: "CustomFont";
-src : url("collegiate/CollegiateBlackFLF.ttf");
+src : url("../collegiate/CollegiateBlackFLF.ttf");
 
 }
 @font-face {
 font-family: "CustomFont";
-src : url("collegiate/CollegiateBlackFLF.ttf");
+src : url("../collegiate/CollegiateBlackFLF.ttf");
 font-weight: bold;
 }
 nav {
